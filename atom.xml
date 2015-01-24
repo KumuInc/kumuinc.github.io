@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Kumu Tech Blog]]></title>
-  <link href="http://kumu.co.jp/atom.xml" rel="self"/>
-  <link href="http://kumu.co.jp/"/>
-  <updated>2015-01-24T17:48:48+09:00</updated>
-  <id>http://kumu.co.jp/</id>
+  <link href="http://kumuinc.github.io/atom.xml" rel="self"/>
+  <link href="http://kumuinc.github.io/"/>
+  <updated>2015-01-24T18:09:51+09:00</updated>
+  <id>http://kumuinc.github.io/</id>
   <author>
     <name><![CDATA[Kumu Inc.]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[RubyMineでPowを使いながらDebugする方法]]></title>
-    <link href="http://kumu.co.jp/blog/2015/01/24/rubymine-pow/"/>
+    <link href="http://kumuinc.github.io/blog/2015/01/24/rubymine-pow/"/>
     <updated>2015-01-24T14:26:27+09:00</updated>
-    <id>http://kumu.co.jp/blog/2015/01/24/rubymine-pow</id>
+    <id>http://kumuinc.github.io/blog/2015/01/24/rubymine-pow</id>
     <content type="html"><![CDATA[<h2>はじめに</h2>
 
 <p>Railsアプリのブラウザテストなどをしていると <a href="http://localhost:3000">http://localhost:3000</a> とかでアクセスしたりしますよね。LAN内の他のマシンやスマートフォン実機から見たいとか、複数プロジェクト同時にアクセスしたいからポート変えて&hellip;じゃあDNS立てないと&hellip;とかが面倒なので、その辺を一気にスマートに解決してくれたのが Powでした。Powを使うと <a href="http://myapp.dev/">http://myapp.dev/</a> といったURLで開発中のアプリにアクセスする事ができます。</p>
@@ -156,9 +156,9 @@ Cannot connect to the debugged process at port 1234 in 10s:</p></blockquote>
   
   <entry>
     <title type="html"><![CDATA[会社設立]]></title>
-    <link href="http://kumu.co.jp/blog/2014/04/01/init/"/>
+    <link href="http://kumuinc.github.io/blog/2014/04/01/init/"/>
     <updated>2014-04-01T14:26:27+09:00</updated>
-    <id>http://kumu.co.jp/blog/2014/04/01/init</id>
+    <id>http://kumuinc.github.io/blog/2014/04/01/init</id>
     <content type="html"><![CDATA[<p>Kumu Inc. を設立しました。</p>
 ]]></content>
   </entry>

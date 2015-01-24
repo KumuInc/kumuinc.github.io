@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://kumu.co.jp/sitemap.xml 
+Sitemap: http://kumuinc.github.io/sitemap.xml 
