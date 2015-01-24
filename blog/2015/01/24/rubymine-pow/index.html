@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Kumu Tech Blog</title>
+  <title>RubyMineでPowを使いながらDebugする方法 - Kumu Tech Blog</title>
   <meta name="author" content="Kumu Inc.">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kumu.co.jp">
+  <link rel="canonical" href="http://kumu.co.jp/blog/2015/01/24/rubymine-pow">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Kumu Tech Blog" type="application/atom+xml">
@@ -49,7 +49,7 @@
 
 <div class="header-right">
   <ul class="main-navigation">
- <div class="selected"> 
+ <div> 
   <li><a href="/">blog</a></li></div><div class="spacer"></div>
      <div> 
   <li><a href="/about">about</a></li></div>
@@ -60,15 +60,12 @@
 </header>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/01/24/rubymine-pow/">RubyMineでPowを使いながらDebugする方法</a></h1>
+      <h1 class="entry-title">RubyMineでPowを使いながらDebugする方法</h1>
     
     
       <p class="meta">
@@ -91,7 +88,7 @@
   </header>
 
 
-  <div class="entry-content"><h2>はじめに</h2>
+<div class="entry-content"><h2>はじめに</h2>
 
 <p>Railsアプリのブラウザテストなどをしていると <a href="http://localhost:3000">http://localhost:3000</a> とかでアクセスしたりしますよね。LAN内の他のマシンやスマートフォン実機から見たいとか、複数プロジェクト同時にアクセスしたいからポート変えて&hellip;じゃあDNS立てないと&hellip;とかが面倒なので、その辺を一気にスマートに解決してくれたのが Powでした。Powを使うと <a href="http://myapp.dev/">http://myapp.dev/</a> といったURLで開発中のアプリにアクセスする事ができます。</p>
 
@@ -225,22 +222,16 @@ Cannot connect to the debugged process at port 1234 in 10s:</p></blockquote>
 <a href="http://myapp.192.168.0.8.xip.io/">http://myapp.192.168.0.8.xip.io/</a>
 という形式でもOK なので スマートフォン実機から開発機にアクセスしてデバッグしたい&hellip;なんていう時には便利かもしれませんね。</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/01/init/">会社設立</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Aki.</span></span>
+
+      
 
 
 
@@ -252,27 +243,34 @@ Cannot connect to the debugged process at port 1234 in 10s:</p></blockquote>
   
 
 
-<time datetime="2014-04-01T14:26:27+09:00" pubdate data-updated="true"></time>
-        
-      </p>
+<time datetime="2015-01-24T14:26:27+09:00" pubdate data-updated="true"></time>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Kumu Inc. を設立しました。</p>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://kumu.co.jp/blog/2015/01/24/rubymine-pow/" data-via="" data-counturl="http://kumu.co.jp/blog/2015/01/24/rubymine-pow/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/01/init/" title="Previous Post: 会社設立">&laquo; 会社設立</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   <section>
   <h1><a href="http://kumu.co.jp" target="_blank">Kumu Inc.</a></h1>
@@ -293,6 +291,21 @@ Cannot connect to the debugged process at port 1234 in 10s:</p></blockquote>
 
     <a href="/atom.xml"><img src="/images/social/rss.png" alt="RSS" /></a>
   </div>
+</section>
+
+  <section>
+  <h1>Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/24/rubymine-pow/">RubyMineでPowを使いながらDebugする方法</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/01/init/">会社設立</a>
+      </li>
+    
+  </ul>
 </section>
 
   
@@ -317,6 +330,7 @@ Cannot connect to the debugged process at port 1234 in 10s:</p></blockquote>
 
   
 </aside>
+
 
     </div>
   </div>
